@@ -1,11 +1,12 @@
 package edu.jsu.mcis.cs310.tictactoe;
 
 /**
-* TicTacToeState represents the state of the current game of Tic-Tac-Toe.
+* TicTacToe implements the main class for the Tic-Tac-Toe game.
 *
-* @author Rafael Ramos
+* @author  Rafael Ramos
 * @version 1.0
 */
+
 public enum TicTacToeState {
     
     /**

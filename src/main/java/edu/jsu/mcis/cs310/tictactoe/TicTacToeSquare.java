@@ -1,12 +1,12 @@
 package edu.jsu.mcis.cs310.tictactoe;
 
 /**
-* TicTacToeSquare represents the state of an individual square on a Tic-Tac-Toe
-* game board, or the specified player's mark.
+* TicTacToe implements the main class for the Tic-Tac-Toe game.
 *
-* @author Rafael Ramos
+* @author  Rafael Ramos
 * @version 1.0
 */
+
 public enum TicTacToeSquare {
     
     /**

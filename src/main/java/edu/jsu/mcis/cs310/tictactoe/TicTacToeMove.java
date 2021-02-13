@@ -1,8 +1,7 @@
 package edu.jsu.mcis.cs310.tictactoe;
 
 /**
-* TicTacToeMove represents the row and column of a player's move in the
-* Tic-Tac-Toe game.
+* TicTacToe implements the main class for the Tic-Tac-Toe game.
 *
 * @author  Rafael Ramos
 * @version 1.0
