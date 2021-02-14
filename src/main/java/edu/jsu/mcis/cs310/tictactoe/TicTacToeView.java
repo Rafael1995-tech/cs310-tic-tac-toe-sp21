@@ -6,7 +6,7 @@ import java.util.Scanner;
 * TicTacToeView implements a console-based View for the Tic-Tac-Toe game.
 *
 * @author  Rafael Ramos
-* @version 1.0
+* @version 2.0
 */
 public class TicTacToeView {
     
