@@ -99,9 +99,22 @@ public class TicTacToeView extends JPanel {
     */
     public void updateSquares() {
 
-        // INSERT YOUR CODE HERE
+        for(int i = 0; i < board.length; i++){
+
+
+            for(int j = 0; j < board[i].length; j++){
+
+
+
+                this.board[i][j].setText(controller.getSquareAsString(i, j));
+            }
+        }
 
     }
+        
+    
+
+    
     
     /**
     * This method disables the buttons in the user interface, so that after the
@@ -112,9 +125,21 @@ public class TicTacToeView extends JPanel {
     */
     public void disableSquares() {
     
-        // INSERT YOUR CODE HERE
+        for(int i = 0; i < board.length; i++){
+
+
+            for(int j = 0; j < board.length; j++){
+
+
+
+                this.board[i][j].setEnabled(false);
+            }
+            
+        }
             
     }
+            
+    
         
     /**
     * This method updates the result label to display the final result of the
